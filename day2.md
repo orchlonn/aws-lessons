@@ -26,19 +26,19 @@ AWS WAF helps protect your web applications or APIs against common web expoloits
 <!-- Amaozn software vulnerability checks -->
 Amazon inspector allows you to perform automated security assessment on your application. (S3 bucket is full internet access, thus Amazon inspector can help you with that.)
 
+
 <!-- Encryption -->
 At-Rest encryption --> This is the encryption of data that is stored on a device or in cloud service.
 In-transit encryption --> This is the encryption of data as it travels from one place to another.
 
 Also, we can upload encrypted file to the cloud service.
 
+
 <!-- Amazon key management -->
 AWS KMS (Amazon key management system) helps customers perform encryption operations through the use of cryptographic keys. You can choose the specific levels of access control that you need for your keys. 
 
 <!-- Amazon intelligent threat detection -->
 Amazon GuardDuty provides intelligent threat detection for AWS products and services. 
-
-
 
 
 <!-- AWS storage types -->
@@ -67,3 +67,24 @@ Amazon Elastic File System (AMAZON EFS) is a scalable file system used with AWS 
 
 <!-- Comparing storage services -->
 Amazon S3  vs Amazon EBS vs Amazon EFS
+
+<!-- Amazon EC2 instance types -->
+* General purpose 
+    - Blanace compute, memory, and networking resources
+    - Suitable for a broad range of workloads
+* Compute optimize 
+    - Offers high-performance processors
+    - Ideal for compute-intensive applications and band with it.
+* Accelerated Compute
+    - Uses hardware accelerators to expedite data processing
+    - Ideal for applications streaming and graphics workload
+* Memory Optimizated 
+* Storage optimized 
+    - Offers low latency and high input/output performance
+    - Suitable for workloads.
+
+
+<!-- Amazon EC2 Auto Scaling -->
+* Scale capacity as computing requirements change
+* Use dynamic scaling and predictive scaling
+
